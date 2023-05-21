@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from '/styles/blog.module.css'
 import Link from 'next/link'
-const index = (props) => {
+const Index = (props) => {
   const [data, setData] = useState(props.data);
   return (
    
@@ -44,4 +44,4 @@ export async function getServerSideProps() {
 }
 
 
-export default index;
+export default Index;
