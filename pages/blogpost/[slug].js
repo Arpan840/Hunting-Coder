@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import style from '../../styles/blogpost.module.css'
 import { useEffect, useState } from 'react';
 
-const blogs = () => {
+const Blogs = () => {
   const router = useRouter();
   const { slug } = router.query
   const [blog,setBlog]=useState()
@@ -32,4 +32,4 @@ const blogs = () => {
   )
 }
 
-export default blogs
+export default Blogs
