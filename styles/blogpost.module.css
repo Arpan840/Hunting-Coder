@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+.data{
+    padding: 30px;
+}

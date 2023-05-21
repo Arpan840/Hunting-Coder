@@ -127,3 +127,20 @@
     filter: invert(1);
   }
 }
+.navbar{
+  border-bottom: 2px  solid royalblue;
+  width: 100%;
+}
+.navbar ul{
+  display: flex;
+  justify-content: right;
+}
+.navbar ul li{
+ margin:0 20px;
+ font-weight: bold;
+ list-style: none;
+}
+.image{
+  margin-top: 10px;
+  border-radius: 10px;
+}
