@@ -17,7 +17,7 @@ const About = () => {
       <h2 className={styles.sectionTitle}>What We Offer</h2>
       <h3 className={styles.subsectionTitle}>1. Blogging Platform</h3>
       <p className={styles.subsectionDescription}>
-        Our website offers a user-friendly blogging platform where you can easily create and publish your own blog posts. Whether you're a seasoned developer, a coding newbie, or someone exploring different technologies, you'll find a welcoming space to express your thoughts and share your experiences.
+        Our website offers a user-friendly blogging platform where you can easily create and publish your own blog posts. Whether you&apos;re a seasoned developer, a coding newbie, or someone exploring different technologies, you&apos;ll find a welcoming space to express your thoughts and share your experiences.
       </p>
 
       <h3 className={styles.subsectionTitle}>2. Diverse Topics</h3>
@@ -32,7 +32,7 @@ const About = () => {
 
       <h3 className={styles.subsectionTitle}>4. Learning Resources</h3>
       <p className={styles.subsectionDescription}>
-        In addition to blog posts, we offer curated resources and tutorials to support your learning journey. Whether you're looking for beginner-friendly guides, advanced tutorials, coding exercises, or recommendations for further exploration, our learning resources section is here to assist you in your quest for knowledge.
+        In addition to blog posts, we offer curated resources and tutorials to support your learning journey. Whether you&apos;re looking for beginner-friendly guides, advanced tutorials, coding exercises, or recommendations for further exploration, our learning resources section is here to assist you in your quest for knowledge.
       </p>
 
       <h2 className={styles.sectionTitle}>Join Us!</h2>
@@ -40,7 +40,7 @@ const About = () => {
         We invite you to be a part of our community by creating an account on our website. By joining, you can contribute your own blog posts, engage with fellow tech enthusiasts, and expand your knowledge in the world of coding and technology.
       </p>
 
-      <p className={styles.bottomText}>Let's learn, share, and grow together!</p>
+      <p className={styles.bottomText}>Let&apos;s learn, share, and grow together!</p>
     </div>
   );
 }

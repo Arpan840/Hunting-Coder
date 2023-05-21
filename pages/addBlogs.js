@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import contact from '../styles/contact.module.css';
 import toast, { Toaster } from 'react-hot-toast';
-const addBlogs = () => {
+const AddBlogs = () => {
   
     const [blogs, setBlogs] = useState({ title: '', description: '', imgUrl: '',name:'' });
 
@@ -62,4 +62,4 @@ const addBlogs = () => {
   );
 }
 
-export default addBlogs
+export default AddBlogs
